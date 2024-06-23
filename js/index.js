@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-  onInit();
+  // Obtener el año actual y setearlo en el footer
+  const anioActual = new Date().getFullYear();
+  document.getElementById('anio').textContent = anioActual;
+  
+    onInit();
 });
 
 function onInit() {
