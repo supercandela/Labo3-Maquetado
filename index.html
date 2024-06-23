@@ -27,79 +27,43 @@
     <section>
         <h2 class="section-title">Más sobre nosotros</h2>
         
-        <div class="section-content">
-            <div class="nosotros-item">
-                <img class="nosotros-img" src="./assets/images/icono1.svg" alt="Icono Candado">
-                <h3>Seguridad</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam velit ab incidunt omnis suscipit reprehenderit vel doloremque, rerum debitis quam vitae tenetur, ipsum unde ea deserunt, corporis impedit corrupti!</p>
-            </div>
-    
-            <div class="nosotros-item">
-                <img class="nosotros-img" src="./assets/images/icono2.svg" alt="Icono Dinero">
-                <h3>El Mejor Precio</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam velit ab incidunt omnis suscipit reprehenderit vel doloremque, rerum debitis quam vitae tenetur, ipsum unde ea deserunt, corporis impedit corrupti!</p>
-            </div>
-    
-            <div class="nosotros-item">
-                <img class="nosotros-img" src="./assets/images/icono3.svg" alt="Icono Reloj">
-                <h3>A tiempo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam velit ab incidunt omnis suscipit reprehenderit vel doloremque, rerum debitis quam vitae tenetur, ipsum unde ea deserunt, corporis impedit corrupti!</p>
-            </div>
+        <div id="nosotros-contenido" class="section-content">
+
         </div>
+
+        <template id="items-nosotros">
+            <div class="nosotros-item">
+                <img class="nosotros-img" src="" alt="">
+                <h3></h3>
+                <p></p>
+            </div>
+        </template>
     </section>
 
     <section>
         <h2 class="section-title">Casas y Departamentos en Venta</h2>
-    
-        <div class="section-content">
-            <div class="casas-venta-item">
-                <img class="casas-venta-img" src="./assets/images/anuncio1.jpg" alt="Casa en el lago">
-                <h3>Casa de Lujo en el Lago</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quibusdam asperiores est ab nostrum ipsam. Earum voluptatem iste quidem minus accusantium asperiores aut, fugiat obcaecati exercitationem molestiae saepe similique. Debitis.</p>
-                <b>u$s 3.500.000</b>
-                <div class="casas-venta-iconos">
-                    <img src="./assets/images/icono_wc.svg" alt="Icono baño">
-                    <p>3</p>
-                    <img src="./assets/images/icono_estacionamiento.svg" alt="Icono Estacionamiento">
-                    <p>3</p>
-                    <img src="./assets/images/icono_dormitorio.svg" alt="Icono Dormitorio">
-                    <p>4</p>
-                </div>
-                <a class="casas-ventas-ver-cada-una" href="#">Ver Propiedad</a>
-            </div>
-    
-            <div class="casas-venta-item">
-                <img class="casas-venta-img" src="./assets/images/anuncio2.jpg" alt="Casa de lujo">
-                <h3>Casa terminados de lujo</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, fuga tenetur dolorem in beatae ipsum ipsa quisquam vero quos ullam eaque, accusamus aperiam commodi rerum quasi magni dolores? Cupiditate, quae.</p>
-                <b>u$s 3.500.000</b>
-                <div class="casas-venta-iconos">
-                    <img src="./assets/images/icono_wc.svg" alt="Icono baño">
-                    <p>3</p>
-                    <img src="./assets/images/icono_estacionamiento.svg" alt="Icono Estacionamiento">
-                    <p>3</p>
-                    <img src="./assets/images/icono_dormitorio.svg" alt="Icono Dormitorio">
-                    <p>4</p>
-                </div>
-                <a class="casas-ventas-ver-cada-una" href="#">Ver Propiedad</a>
-            </div>
-    
-            <div class="casas-venta-item">
-                <img class="casas-venta-img" src="./assets/images/anuncio3.jpg" alt="Casa con pileta">
-                <h3>Casa con Pileta</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa suscipit blanditiis magnam nostrum obcaecati nisi ad quisquam voluptates sed, delectus debitis, consequatur eius deleniti consectetur ipsam similique neque, esse repudiandae.</p>
-                <b>u$s 3.500.000</b>
-                <div class="casas-venta-iconos">
-                    <img src="./assets/images/icono_wc.svg" alt="Icono baño">
-                    <p>3</p>
-                    <img src="./assets/images/icono_estacionamiento.svg" alt="Icono Estacionamiento">
-                    <p>3</p>
-                    <img src="./assets/images/icono_dormitorio.svg" alt="Icono Dormitorio">
-                    <p>4</p>
-                </div>
-                <a class="casas-ventas-ver-cada-una" href="#">Ver Propiedad</a>
-            </div>
+
+        <div id="listado-casas" class="section-content">
+
         </div>
+        
+        <template id="items-casas-venta">
+            <div class="casas-venta-item">
+                <img class="casas-venta-img" src="" alt="">
+                <h3></h3>
+                <p></p>
+                <b></b>
+                <div class="casas-venta-iconos">
+                    <img src="" alt="">
+                    <p></p>
+                    <img src="" alt="">
+                    <p></p>
+                    <img src="" alt="">
+                    <p></p>
+                </div>
+                <a class="casas-ventas-ver-cada-una" href="#">Ver Propiedad</a>
+            </div>
+        </template>
 
         <div class="casas-venta-boton">
             <a class="casas-ventas-ver-todas" href="#">Ver Todas</a>
@@ -115,27 +79,21 @@
     <section class="blog">
         <h2 class="section-title">Nuestro Blog</h2>
 
-        <div class="blog-content">
-            <div class="blog-item">
-                <img class="blog-img" src="./assets/images/blog1.jpg" alt="Terraza con sillones">
-                <div class="blog-info">
-                    <h3>Terraza en el techo de tu casa</h3>
-                    <div class="linea-separadora"></div>
-                    <p>Escrito el: <b>20/10/2019</b> por: <b>Admin</b> </p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quibusdam.</p>
-                </div>
-            </div>
-    
-            <div class="blog-item">
-                <img class="blog-img" src="./assets/images/blog2.jpg" alt="Pileta">
-                <div class="blog-info">
-                    <h3>Guía para la decoración del hogar</h3>
-                    <div class="linea-separadora"></div>
-                    <p>Escrito el: <b>20/10/2019</b> por: <b>Admin</b> </p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quibusdam.</p>
-                </div>
-            </div>
+        <div id="blog-content" class="blog-content">
+
         </div>
+
+        <template id="blog-item">
+            <div class="blog-item">
+                <img class="blog-img" src="" alt="">
+                <div class="blog-info">
+                    <h3></h3>
+                    <div class="linea-separadora"></div>
+                    <p>Escrito el: <b></b> por: <b></b> </p>
+                    <p></p>
+                </div>
+            </div>
+        </template>
         
     </section>
 
@@ -148,7 +106,7 @@
             </p>
             <b>- Juan Pérez</b>
         </div>
-    </section>
+    </section> 
 
     <footer>
         <div class="barra">
@@ -165,4 +123,8 @@
     </footer>
 
 </body>
+<script
+    type="module"
+    src="./js/index.js"
+  ></script>
 </html>
