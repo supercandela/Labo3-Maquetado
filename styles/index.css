@@ -91,8 +91,8 @@ div.banner {
     color: white;
     width: 60vw;
     margin-bottom: 10vh;
-    padding-top: 40vh;
-    font-size: 3.5vw;
+    padding-top: 35vh;
+    font-size: 3vw;
     line-height: 1.5em;
   }
   
@@ -108,7 +108,7 @@ h2.section-title {
     font-weight: lighter;
     text-transform: capitalize;
     font-size: 2em;
-    line-height: 2em;
+    line-height: 2.2em;
 }
 
 div.section-content {
@@ -381,8 +381,8 @@ footer p {
 
 @media only screen and (max-width: 1100px) {
     div.banner h1 {
-        font-size: 4vw;
-        line-height: 2em;
+        font-size: 3.8vw;
+        line-height: 1.7em;
         width: 80vw;
       }
 
